@@ -1,15 +1,16 @@
-# audio visualization
+# Audio Visualization
 
-## What is this? This is a collection kind like the (awesome)[https://github.com/sindresorhus/awesome] stuff that specifically focuses on audio visualization, mostly on fast and headless tools and libraries.
+## What is this? This is a collection kind like the [awesome](https://github.com/sindresorhus/awesome) stuff that specifically focuses on audio visualization, mostly on fast and headless tools and libraries.
 ## Why? The awesome collection already have audio visualization section, but mostly JS libraries and tools, but not stuff that can actually useful without browser or a canvas.
 
-### TF u saying, you must rephrase this
-### Just to give a bit of context. There are two main motors for audio visualization:
-    + Wave form: Direct representation of the audio samples.
-    There are some important details in here that can be implemented to provide a better visualization. Which is detecting the fundamental frequency of the loudest sound present, and using this information to adjust the sync window, so the wave form
-    + STFFT: this is the main audio transformation, it naturally spits the spectrometer, we can represent it in different ways:
-        + spectrogram: is the natural output of the STFFT, most of the time we apply a log scale to get a better representation that reflect how we perceive sound, we can apply different color map, and we also can be more creative by representing the spectrogam in 3D (cool).
-        + spectrum: we represent the FFT of a window at time resulting in what's called spectrum, putting the spectrum of the windows consecutively we get a moving spectrum that reflect the sound at the giving time.
+## TF u saying, you must rephrase this
+
+## Just to give a bit of context. There are two main motors for audio visualization:
++ Wave form: Direct representation of the audio samples.
+There are some important details in here that can be implemented to provide a better visualization. Which is detecting the fundamental frequency of the loudest sound present, and using this information to adjust the sync window, so the wave form
++ STFFT: this is the main audio transformation, it naturally spits the spectrometer, we can represent it in different ways:
+    + spectrogram: is the natural output of the STFFT, most of the time we apply a log scale to get a better representation that reflect how we perceive sound, we can apply different color map, and we also can be more creative by representing the spectrogam in 3D (cool).
+    + spectrum: we represent the FFT of a window at time resulting in what's called spectrum, putting the spectrum of the windows consecutively we get a moving spectrum that reflect the sound at the giving time.
 
 
 #### This collection tries to focus on compiled Languages tools, so the following are either not discussed or not in details at least:
