@@ -1,7 +1,7 @@
-# Audio Visualization
+# Audio Visualization - A collection I have compiled a while ago when I was interested in this topic.
 
 ### What is this? This is a collection kind like the [awesome](https://github.com/sindresorhus/awesome) stuff that specifically focuses on audio visualization, mostly on fast and headless tools and libraries.
-## Why? The awesome collection already have audio visualization section, but mostly JS libraries and tools, but not stuff that can actually useful without browser or a canvas.
+## Why? I was interested in audio visualization for sometime when I was learning about DSP and ML for audio. The awesome collection already have audio visualization section, but mostly JS libraries and tools, but not stuff that can actually useful without browser or a canvas.
 
 #### This collection tries to focus on compiled Languages tools, so the following are either not discussed or not in details at least:
 + JavaScript base visualizers: although the visual flair that you can do with JS can be astonishing, they all run either in the browser or in a canvas, and not portable.
