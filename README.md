@@ -17,7 +17,7 @@ There are some important details in here that can be implemented to provide a be
     + spectrum: we represent the FFT of a window at time resulting in what's called spectrum, putting the spectrum of the windows consecutively we get a moving spectrum that reflect the sound at the giving time.
 
 
-+ (synesthesia)[http://www.synesthesia.live/]: realtime shaders visualization similar to __MilkDrop__
++ [synesthesia](http://www.synesthesia.live/): realtime shaders visualization similar to __MilkDrop__
     + The visualization are not only based on audio input, but can be control and changed with MIDI in real-time. This is mostly for live-performance music-visual artists.
     + Import your own videos and logos and transform them in real-time.
     + Generate real-time video output to send directly to a projector..
@@ -40,18 +40,15 @@ It uses OpenGL meaning you can expect all the psychodalic pattern, you are famil
 + [FL studio zgameeditor](youtube.com/channel/UCV4oqyhk2L9HvOfjlraNtEQ/videos) : Is an audio visualization tool that ships natively with FL-Studio producer version (I guess), it's relatively powerful considering that it is just an add-on to a DAW and especially when copared to what other DAW has to offer in this area.
 I would say that, it is a bit clunky TBH and not super flexible, It requires some talent and time to get good versatile results.
 
-+ vzx-visualizer: similar to plane9, but with a lot more features, that allows you to build your own visualization.
-https://www.vzx-visualizer.com/
++ [vzx-visualizer](vzx-visualizer.com/): similar to plane9, but with a lot more features, that allows you to build your own visualization.
 
 + Online tools:
 musicvid.org/: Free Open sources tool for professional visuals directly in your browser. Made by github.com/AlexVestin
 renderforest.com/music-visualisations
 
-
-https://www.youtube.com/watch?v=uYdNv0JrPbU
-
-https://runwayml.com/
-
-+ (OBS stuf)[reddit.com/r/DJs/comments/qlzab0/looking_for_a_simple_audio_visualizer/]:
++ [OBS stuf](reddit.com/r/DJs/comments/qlzab0/looking_for_a_simple_audio_visualizer/):
 OBS Shaderfilters
-https://www.youtube.com/watch?v=Na-fPxoUwf0
+youtube.com/watch?v=Na-fPxoUwf0
+
++ https://www.youtube.com/watch?v=uYdNv0JrPbU
++ https://runwayml.com/
