@@ -18,18 +18,24 @@ There are some important details in here that can be implemented to provide a be
 + After effect:  Not discussed here but: videobolt.net/templates/music-visualization
 + Blender or any of the GUI tools (Although blender and Houdini are great tools)
 + Unity/C#: youtube.com/c/PeerPlay/playlists
-+ FL studio zgameeditor: Is an audio visualization tool that ship with FL-Studio producer version (I guess), it's powerful, clunky TBH, Not super flexible, but it has a steep learning rate, requires some talent and time to get good versatile results. .
-youtube.com/channel/UCV4oqyhk2L9HvOfjlraNtEQ/videos
++ [FL studio zgameeditor](youtube.com/channel/UCV4oqyhk2L9HvOfjlraNtEQ/videos) : Is an audio visualization tool that ships natively with FL-Studio producer version (I guess), it's relatively powerful considering that it is just an add-on to a DAW and especially when copared to what other DAW has to offer in this area.
+I would say that, it is a bit clunky TBH and not super flexible, It requires some talent and time to get good versatile results.
 
-
-+ (synesthesia)[http://www.synesthesia.live/]: 
-+ (MilkDrop)[http://www.geisswerks.com/about_milkdrop.html] No need for definition
++ (synesthesia)[http://www.synesthesia.live/]: realtime shaders visualization similar to __MilkDrop__
+    + The visualization are not only based on audio input, but can be control and changed with MIDI in real-time. This is mostly for live-performance music-visual artists.
+    + Import your own videos and logos and transform them in real-time.
+    + Generate real-time video output to send directly to a projector..
+    + Import shaders from Shadertoy and ISF to add fresh content.
+    + Live coding environment for creating your own shaders.
+    + New content available through the in-app marketplace.
+    + Available for Windows/Macos free and paid.
++ (MilkDrop)[http://www.geisswerks.com/about_milkdrop.html] The Godfather of audio visualization, If you remember the glory days of WinAmp audio player and its mesmerizing visual flair, this was the engine behind it.
 + (ProjectM)[https://github.com/projectM-visualizer/projectm]: 
-open-source cross-platform reusable library for audio visualization
+    + open-source cross-platform reusable library for audio visualization
     + Stand Alone: get input from Mic or system's audio
 
 + (Butterchurn) [github.com/jberg/butterchurn]: 
-A WebGL implementation of the Milkdrop Visualizer
+    + A WebGL implementation of the Milkdrop Visualizer
 
 + plane9: The visualizer can be used either as standalone window, screensaver, oculus rift or HTC Vive VR visualizer. It is sound sensitive and reacts to what your currently listening to, be it from spotify, iTunes or any another sound source, it can even react to what you record from a microphone or other input.
 It uses OpenGL meaning you can expect all the psychodalic pattern, you are familiar with from old WinMap and windows media player, but a lot more.
