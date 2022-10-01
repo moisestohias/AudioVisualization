@@ -1,8 +1,10 @@
-# What is this?
-## The is a collection kind like the (awesome)[https://github.com/sindresorhus/awesome] stuff. That specifically focuses on audio visualization, mostly on fast and headless tools and libraries.
+# audio visualization
 
-### Just to give a bit of context, -TF u saying, you must rephrase this -
-There are three visualization sources:
+## What is this? This is a collection kind like the (awesome)[https://github.com/sindresorhus/awesome] stuff that specifically focuses on audio visualization, mostly on fast and headless tools and libraries.
+## Why? The awesome collection already have audio visualization section, but mostly JS libraries and tools, but not stuff that can actually useful without browser or a canvas.
+
+### TF u saying, you must rephrase this
+### Just to give a bit of context. There are two main motors for audio visualization:
     + Wave form: Direct representation of the audio samples.
     There are some important details in here that can be implemented to provide a better visualization. Which is detecting the fundamental frequency of the loudest sound present, and using this information to adjust the sync window, so the wave form
     + STFFT: this is the main audio transformation, it naturally spits the spectrometer, we can represent it in different ways:
