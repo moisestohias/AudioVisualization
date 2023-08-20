@@ -1,20 +1,33 @@
-# Audio Visualization - A collection I have compiled a while ago when I was interested in this topic.
+# Audio Visualization
+## What is this? 
+This is a collection kind like the [awesome](https://github.com/sindresorhus/awesome) that focuses on audio visualization tools, (mostly on fast and headless tools and libraries).
 
-##### What is this? This is a collection kind like the [awesome](https://github.com/sindresorhus/awesome) stuff that specifically focuses on audio visualization, mostly on fast and headless tools and libraries.
-## Why? I was interested in audio visualization for sometime when I was learning about DSP and ML for audio. The awesome collection already has audio visualization section, but mostly JS libraries and tools, but not stuff that can actually be useful without browser or a canvas.
+## Why? 
+Who the hell don't love beatiful audio visualization. The awesome collection already has audio visualization section, but mostly JS libraries and tools, but not stuff that can actually be useful without browser or a canvas.
 
-###### This collection tries to focus on compiled Languages tools, so the following are either not discussed or not in details at least:
-+ JavaScript base visualizers: although the visual flair that you can do with JS can be astonishing, they all run either in the browser or in a canvas, and not portable.
-+ After effect:  Not discussed here but: videobolt.net/templates/music-visualization
-+ Blender or any of the GUI tools (Although blender and Houdini are great tools)
+### Scope
+This collection tries to focus on ready to use tools, so the following are either not discussed
 + (Unity/C#)[youtube.com/c/PeerPlay/playlists]
++ **JavaScript** base visualizers: although the visual flair that you can do with JS can be astonishing, they all run either in the browser or in a canvas, and not portable.
++ **After effect**: [Although powerfull](videobolt.net/templates/music-visualization), but not in my scope
++ **Blender** or any of the GUI tools (Although blender and Houdini are great tools)
 
 ## Just to give a bit of context. There are two main motors for audio visualization:
-+ Wave form: Direct representation of the audio samples.
-There are some important details in here that can be implemented to provide a better visualization. Which is detecting the fundamental frequency of the loudest sound present, and using this information to adjust the sync window, so the wave form
-+ STFFT: this is the main audio transformation, it naturally spits the spectrogram, we can represent it in different ways:
-    + spectrogram: is the natural output of the STFFT, most of the time we apply a log scale to get a better representation that reflect how we perceive sound, we can apply different color map, and we also can be more creative by representing the spectrogam in 3D (cool).
-    + spectrum: we represent the FFT of a window at time resulting in what's called spectrum, putting the spectrum of the windows consecutively we get a moving spectrum that reflect the sound at the giving time.
+To provide a clearer context, there are two primary methods for audio visualization: waveforms and Short-Time Fourier Transform (STFFT). Let's delve into each of these methods to uncover potential improvements for better visualization.
+
+1. **Waveform:**
+   A waveform is a straightforward representation of audio samples over time. To enhance this visualization, we can consider implementing the following improvements:
+   
+   - **Fundamental Frequency Detection:** One key enhancement involves detecting the fundamental frequency of the loudest sound within the audio. By identifying this frequency, we can dynamically adjust the synchronization window of the waveform. This adjustment ensures that the waveform accurately represents the dominant sounds, resulting in a more informative visualization.
+   
+2. **STFFT (Short-Time Fourier Transform):**
+   The STFFT is a fundamental audio transformation technique that yields a spectrogram, which can be presented in various ways. Here are some ways to enhance the STFFT-based audio visualization:
+
+   - **Spectrogram Enhancement:** The spectrogram obtained through STFFT is a natural output, but applying a logarithmic scale can significantly improve the representation to match our auditory perception. Additionally, experimenting with different color maps can offer diverse perspectives on the audio content. Furthermore, exploring 3D representations of the spectrogram can lead to visually captivating and informative results.
+
+   - **Spectrum Sequence:** Another approach is to represent the FFT of individual windows over time, resulting in what's known as a spectrum. By arranging these spectra consecutively, we obtain a moving spectrum that reflects the audio characteristics at each moment. This method provides a dynamic insight into how the audio evolves over time.
+
+In conclusion, enhancing audio visualization involves implementing specific strategies for both waveform and STFFT-based representations. By incorporating fundamental frequency detection, adjusting synchronization windows, applying logarithmic scales, experimenting with color maps, and exploring 3D representations, we can create more insightful and engaging visualizations of audio content.
 
 
 + [synesthesia](http://www.synesthesia.live/): realtime shaders visualization similar to __MilkDrop__
@@ -43,12 +56,9 @@ I would say that, it is a bit clunky TBH and not super flexible, It requires som
 + [vzx-visualizer](vzx-visualizer.com/): similar to plane9, but with a lot more features, that allows you to build your own visualization.
 
 + Online tools:
-musicvid.org/: Free Open sources tool for professional visuals directly in your browser. Made by github.com/AlexVestin
-renderforest.com/music-visualisations
+    + **musicvid.org**/: is a [FOSS](github.com/AlexVestin/musicvid.org) tool for professional visuals directly in your browser. Made by [AlexVestin](github.com/AlexVestin) 
 
-+ [OBS stuf](reddit.com/r/DJs/comments/qlzab0/looking_for_a_simple_audio_visualizer/):
-OBS Shaderfilters
-youtube.com/watch?v=Na-fPxoUwf0
 
-+ https://www.youtube.com/watch?v=uYdNv0JrPbU
-+ https://runwayml.com/
++ [NestDrop - Advanced VJ tool for Milkdrop - Tutorial](youtube.com/watch?v=uYdNv0JrPbU)
++ [OBS stuf](reddit.com/r/DJs/comments/qlzab0/looking_for_a_simple_audio_visualizer/)
+
