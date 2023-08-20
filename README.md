@@ -13,21 +13,21 @@ This collection tries to focus on ready to use tools, so the following are eithe
 + **Blender** or any of the GUI tools (Although blender and Houdini are great tools)
 
 ## Just to give a bit of context. There are two main motors for audio visualization:
-To provide a clearer context, there are two primary methods for audio visualization: waveforms and Short-Time Fourier Transform (STFFT). Let's delve into each of these methods to uncover potential improvements for better visualization.
+To provide a clearer context, there are two primary methods for audio visualization: waveforms and Short-Time Fourier Transform (STFT). Let's delve into each of these methods to uncover potential improvements for better visualization.
 
 1. **Waveform:**
    A waveform is a straightforward representation of audio samples over time. To enhance this visualization, we can consider implementing the following improvements:
    
    - **Fundamental Frequency Detection:** One key enhancement involves detecting the fundamental frequency of the loudest sound within the audio. By identifying this frequency, we can dynamically adjust the synchronization window of the waveform. This adjustment ensures that the waveform accurately represents the dominant sounds, resulting in a more informative visualization.
    
-2. **STFFT (Short-Time Fourier Transform):**
-   The STFFT is a fundamental audio transformation technique that yields a spectrogram, which can be presented in various ways. Here are some ways to enhance the STFFT-based audio visualization:
+2. **STFT (Short-Time Fourier Transform):**
+   The STFT is a fundamental audio transformation technique that yields a spectrogram, which can be presented in various ways. Here are some ways to enhance the STFT-based audio visualization:
 
-   - **Spectrogram Enhancement:** The spectrogram obtained through STFFT is a natural output, but applying a logarithmic scale can significantly improve the representation to match our auditory perception. Additionally, experimenting with different color maps can offer diverse perspectives on the audio content. Furthermore, exploring 3D representations of the spectrogram can lead to visually captivating and informative results.
+   - **Spectrogram Enhancement:** The spectrogram obtained through STFT is a natural output, but applying a logarithmic scale can significantly improve the representation to match our auditory perception. Additionally, experimenting with different color maps can offer diverse perspectives on the audio content. Furthermore, exploring 3D representations of the spectrogram can lead to visually captivating and informative results.
 
    - **Spectrum Sequence:** Another approach is to represent the FFT of individual windows over time, resulting in what's known as a spectrum. By arranging these spectra consecutively, we obtain a moving spectrum that reflects the audio characteristics at each moment. This method provides a dynamic insight into how the audio evolves over time.
 
-In conclusion, enhancing audio visualization involves implementing specific strategies for both waveform and STFFT-based representations. By incorporating fundamental frequency detection, adjusting synchronization windows, applying logarithmic scales, experimenting with color maps, and exploring 3D representations, we can create more insightful and engaging visualizations of audio content.
+In conclusion, enhancing audio visualization involves implementing specific strategies for both waveform and STFT-based representations. By incorporating fundamental frequency detection, adjusting synchronization windows, applying logarithmic scales, experimenting with color maps, and exploring 3D representations, we can create more insightful and engaging visualizations of audio content.
 
 
 + [synesthesia](http://www.synesthesia.live/): realtime shaders visualization similar to __MilkDrop__
@@ -61,4 +61,3 @@ I would say that, it is a bit clunky TBH and not super flexible, It requires som
 
 + [NestDrop - Advanced VJ tool for Milkdrop - Tutorial](youtube.com/watch?v=uYdNv0JrPbU)
 + [OBS stuf](reddit.com/r/DJs/comments/qlzab0/looking_for_a_simple_audio_visualizer/)
-
